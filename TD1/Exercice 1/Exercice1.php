@@ -7,10 +7,9 @@ class Personne
 
     public function __construct(string $name,string $lastname,int $years)
     {
-        $this->getPrenom($lastname);
-        $this->getNom($name);
-        $this->getAge($years);
-        print "Création de la personne";
+        $this->nom =$name;
+        $this->prenom=$lastname;
+        $this->age=$years;
     }
 
     public function getNom() : string
