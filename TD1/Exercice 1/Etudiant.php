@@ -1,6 +1,5 @@
 <?php
 
-
 class Etudiant extends Personne
 {
     private int $identifiant;

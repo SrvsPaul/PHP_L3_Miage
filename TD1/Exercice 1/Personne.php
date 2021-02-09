@@ -12,14 +12,17 @@ class Personne
         $this->age=$years;
     }
 
+
+
+    public function setNom(string $nom): void{
+        $this->nom=$nom;
+    }
     public function getNom() : string
     {
         return $this->nom;
     }
 
-    public function setNom(string $nom): void{
-         $this.nom;
-    }
+
 
     public function getPrenom():string{
         return $this->prenom;
@@ -32,11 +35,11 @@ class Personne
 
 
     public function setPrenom(string $Prenom): void{
-         $this->prenom;
+         $this->prenom=$Prenom;
     }
 
     public function setAge(int $Age) : void{
-         $this.age;
+         $this->age=$Age;
     }
 
 
