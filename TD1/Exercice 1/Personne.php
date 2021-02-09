@@ -3,9 +3,15 @@ class Personne
 {
     private string $nom;
     private string $prenom;
-    private int $age;
+    private string $age;
 
-    public function __construct(string $name,string $lastname,int $years)
+    /**
+     * Personne constructor.
+     * @param string $name
+     * @param string $lastname
+     * @param string $years
+     */
+    public function __construct(string $name, string $lastname, string $years)
     {
         $this->nom =$name;
         $this->prenom=$lastname;
@@ -28,7 +34,7 @@ class Personne
         return $this->prenom;
     }
 
-    public function getAge():int{
+    public function getAge():string{
         return $this->age;
     }
 
@@ -38,7 +44,7 @@ class Personne
          $this->prenom=$Prenom;
     }
 
-    public function setAge(int $Age) : void{
+    public function setAge(string $Age) : void{
          $this->age=$Age;
     }
 
