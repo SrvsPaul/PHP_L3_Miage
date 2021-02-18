@@ -6,6 +6,6 @@ class ContactModel
 {
     public function getContacts(): array
     {
-        return ['Baptiste','Brandon','Yvan'];
+        return ['Baptiste','Benjamin','Yvan'];
     }
 }

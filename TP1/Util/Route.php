@@ -16,7 +16,6 @@ class Route
             $method = "listContact";
         }
         $class = $namespace."\\".$controller;
-        echo $class;
 
         if (! class_exists($class)) {
             return $this->not_found();
