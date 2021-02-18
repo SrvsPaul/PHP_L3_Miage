@@ -1,8 +1,6 @@
 <?php
-require_once "../app/Controllers/ContactController.php";
-require_once "../app/Models/ContactModel.php";
-require_once "../Util/View.php";
-
-$contactController = new \Controllers\ContactController();
-$contactController->listContacts();
-
+include("files_to_include.php");
+//$contactController = new \Controllers\ContactController();
+//$contactController->listContacts();
+//call_user_func_array(array($contactController,"listContacts"),array("Jean","Pierre"));
+$Route = new \Util\Route();
